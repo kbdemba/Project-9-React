@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #e3edf2;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+.form-input {
+    width: 40%;
+    border-radius: 3px 0px 0px 3px;
+  }
+.search-button{
+  background: #3691db;
+  border-radius: 0px 3px 3px 0px;
+  color: white;
+}
+.search-button:hover{
+  background: #165487;
+}
+input, button{
+  padding: .5em;
+  font-size: .9em;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: solid 1px #3691db;
+  outline: none;
+}
+
+.indiImage {
+  margin: 10px 10px;
+  float: left;
+}
+
+.navs {
+  list-style: none;
+}
+
+ul a{
+  color: white;
+  background: #3691db;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: .3s;
+}
+.active, ul a:hover {
+  background-color: #165487;
+}
+.Nav-Link {
+  display: inline;
+  margin: 10px;
+}
+.clearfix {
+    overflow: auto;
+}
+.PhotoContainer{
+  width: 80%;
+  background: #eff6f9;
+  margin: 0 auto;
+}
